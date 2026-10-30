@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 打包产物（用 GitHub Releases 发布 exe）----
+build/
+dist/
+*.spec
+
+# ---- 构建 / 运行临时文件 ----
+.tmp/
+pip-*
+*.log
+自检结果.txt
+启动错误.log
+
+# ---- 测试生成的样本与输出 ----
+tests/samples/
+tests/out/
+tests/preview/
+tests/offline_out/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地工作记录（不上传）----
+.workbuddy-ai/
