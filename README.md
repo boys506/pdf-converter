@@ -25,8 +25,8 @@
 
 ### 方式一：直接用打包好的程序（推荐）
 
-1. 到 [Releases](../../releases) 下载 `PDF转换工坊.zip` 并解压；
-2. 双击 `PDF转换工坊.exe`。
+1. 到 [Releases](../../releases) 下载 `PDF.zip`（约 29 MB）并解压；
+2. 进入 `PDF转换工坊` 文件夹，双击 `PDF转换工坊.exe`（使用说明在同目录）。
 
 > 必须保留同目录下的 `_internal` 文件夹，那是运行库。
 > 采用文件夹版而非单文件版，是因为单文件版启动时要解压到 `%TEMP%`，
@@ -35,7 +35,7 @@
 ### 方式二：从源码运行
 
 ```bash
-git clone https://github.com/<你的用户名>/pdf-converter.git
+git clone https://github.com/boys506/pdf-converter.git
 cd pdf-converter
 
 python -m venv .venv
